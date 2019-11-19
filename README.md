@@ -1,6 +1,6 @@
 # Productor Consumidor
 
-## Problemas del productor consumidor
+### Problemas del productor consumidor
 
 Estudiantes del 8vo semestre de ing. informatica de la UCLA
 Materia: Sistema operativo
