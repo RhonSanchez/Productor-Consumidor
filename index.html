@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<!--
+Problema del productor consumidor en javascript
+
+Estudiantes del 8vo semestre de ing. informatica de la UCLA
+Materia: Sistema operativo
+Profesor: Alvaro Muñoz
+Integrantes:
+
+Jesus Peña 26136282
+Jose Guillen 25146767
+Ruben Gutierrez 25147289
+Francisco Valencia 25138768
+Rhonald Sánchez 26593945
+
+ -->
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Productor Consumidor</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+<!-- navegación -->
+<div class=" navbar navbar-default navbar-static-top">
+<div class="container ">
+    <a class="navbar-brand" href="/" >Productor Consumidor</a>
+    <ul class="nav nav-pills navbar-right navbar-nav">
+        <li><a href="https://github.com/RhonSanchez/Productor-Consumidor">Obtener codigo de Github</a></li>
+    </ul>
+</div>
+</div>
+<div class="container">
+
+<div class="col-xs-12 well">
+    <div class="col-xs-3 ">
+    <!-- Inputs para el productor consumidor -->
+        <form>
+            <label>Cantidad de artículos producidos</label>
+            <input id="producer" type="number">
+            <label>Cantidad de artículos Consumidos</label>
+            <input id="consumer" type="number">
+            <a id="submit" class="btn btn-lg btn-primary">Enviar</a>
+        </form>
+    </div>
+    <!-- una representación visual con -->
+    <div style="border-left: 1px solid #ccc;" class="col-xs-8 col-xs-offset-1">
+        <div class="col-xs-1 pc_icon" >P</div>
+        <ul class="col-xs-10" id="gui"></ul>
+        <div class="col-xs-1 pc_icon">C</div>
+    </div>
+
+</div>
+<!-- Registro de actividad en vivo -->
+<div class="col-xs-12 well" id="activity">
+    <h3 class='text-center'>Registro de actividades</h3>
+</div>
+</div>
+
+    </body>
+
+</html>
+
+<script type="text/javascript" src="producer-consumer.js" ></script>
